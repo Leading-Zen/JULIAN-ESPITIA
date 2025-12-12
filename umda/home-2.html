@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -24,6 +24,7 @@
     <link href="css/theme-modules.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src='https://cdn.jotfor.ms/agent/embedjs/019a9eb02a2f773f9fc39d7faf0fa2488fc5/embed.js'></script>
 </head>
 
 <body>
@@ -32,7 +33,12 @@
          <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light absolute_header navbar-dark navbar-light-logo ">
             <div class="container container-header">
-                <img class="etcodes-normal-logo" src="images/Logo3.png" width="90" height="30" alt="Logo">
+                <a href="home-14.html"> 
+                    <img class="etcodes-normal-logo" src="images/Logo3.png" width="90" height="30" alt="Logo">
+                </a> 
+                <a href="https://api.whatsapp.com/send/?phone=573151234252&text=Hola%2C+quiero+agendar+una+asesoria+con+Julian+Espitia&type=phone_number&app_absent=0" class="calendar-icon-mobile d-lg-none d-block">
+                    <i class="fas fa-calendar-check fa-lg"></i>
+                </a>
                 <button class="navbar-toggler hamburger-menu-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span>toggle menu</span>
@@ -89,18 +95,26 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            <ul class="items_filter text-center">
-                                <li>
-                                    <span data-filter=".marca" class="selector-proyecto titulo-descr">Fotografía de Marca</span>
-                                </li>
-                                <li>
-                                    <span data-filter=".producto" class="selector-proyecto titulo-descr">Fotografía de Producto</span>
-                                </li>
-                                <li>
-                                    <span data-filter=".retrato" class="selector-proyecto titulo-descr">Retrato y Editorial</span>
-                                </li>
-                            </ul>
-                            <!--Fotografía de Marca-->
+                            <div class="filter-carousel-navigation d-flex align-items-center justify-content-center">
+                                <div class="filter-arrow left-arrow d-lg-none">
+                                    <i class="fas fa-chevron-left"></i>
+                                </div>
+                                <ul class="items_filter text-center">
+                                    <li class="active">
+                                        <span data-filter=".marca" class="selector-proyecto titulo-descr">Fotografía de Marca</span>
+                                    </li>
+                                    <li>
+                                        <span data-filter=".producto" class="selector-proyecto titulo-descr">Fotografía de Producto</span>
+                                    </li>
+                                    <li>
+                                        <span data-filter=".retrato" class="selector-proyecto titulo-descr">Retrato y Editorial</span>
+                                    </li>
+                                </ul>
+                                <div class="filter-arrow right-arrow d-lg-none">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <!--Fotografía de Marca-->  
                             <div class="row et-items masonry_layout mb-20px">
                                 <article class="col-sm-6 col-md-6 col-lg-4 et-item marca">
                                     <div class="et-banner">
@@ -142,11 +156,11 @@
                                     <div class="et-banner">
                                         <figure>
                                             <img src="images/proyectos/fotografia-marca/5.jpg" alt="Sofa Picture" width="855" height="671" />
-                                        </figure>
+                                        </figure> 
                                         <h5 class="mt-20px">Orbe Arquitectura</h5>
                                         <p class="banner-desc">Fotografía arquitectónica interior y exterior.</p>
-                                    </div>
-                                </article>
+                                    </div> 
+                                </article> 
                                 <article class="col-sm-6 col-md-6 col-lg-4 et-item marca">
                                     <div class="et-banner">
                                         <figure>
@@ -242,12 +256,12 @@
                     <div class="row small-gutters align-items-center mb-20px">
                         <div class="col-lg-9">
                             <h4 class="mb-15px">Cada proyecto cuenta una historia distinta.</h4>
-                            <p class="banner-agenda">Si quieres que la tuya se vea, se sienta y se recuerde, hablemos sobre cómo<br> puedo capturarla.</p>
+                            <p class="banner-agenda">Si quieres que la tuya se vea, se sienta y se recuerde, hablemos sobre cómo<br class="forzar-art1"> puedo capturarla.</p>
                         </div>
                         <div class="col-lg-1 offset-lg-1">
                             <div class="form-group form-row  mb-0">
                                 <div class="col-sm-4 col-xs-12  mb-30px">
-                                    <a type="submit" class="btn btn-outline-dark rounded-0 boton-nosotros boton-porta" href="https://api.whatsapp.com/send/?phone=573151234252&text=Hola%2C+quiero+agendar+una+asesoria+con+Julian+Espitia&type=phone_number&app_absent=0">AGENDAR ASESORÍA</a>
+                                    <a type="submit" class="btn btn-outline-dark rounded-0 boton-porta" href="https://api.whatsapp.com/send/?phone=573151234252&text=Hola%2C+quiero+agendar+una+asesoria+con+Julian+Espitia&type=phone_number&app_absent=0">AGENDAR ASESORÍA</a>
                                 </div>
                             </div>
                         </div>
@@ -258,9 +272,9 @@
 <footer class="web-footer footer bg-color-darkblue all-text-content-white">
 
   <!-- Sección de Contacto (con fondo más claro y bordes redondeados) -->
-  <div class="footer-contact-bar">
-  <div class="container">
-    <div class="row justify-content-center text-center text-md-start">
+  <div class="footer-contact-bar"> 
+  <div class="container"> 
+    <div class="row justify-content-center text-center text-md-start"> 
 
       <div class="col-lg-4 col-md-4 mb-30px footer-info">
         <div class="footer-widget contact-item d-flex align-items-center justify-content-center justify-content-md-start">
@@ -270,7 +284,7 @@
             </a>
           </div>
           <div class="contact-text text-start">
-            <h5 class="widget-title">Teléfono</h5>
+            <h5 class="widget-title-foot">Teléfono</h5>
             <p><strong class="srtong-footer">(+57) 312 779 0452</strong></p>
           </div>
         </div>
@@ -284,7 +298,7 @@
             </a>
           </div>
           <div class="contact-text text-start">
-            <h5 class="widget-title">Email</h5>
+            <h5 class="widget-title-foot">Email</h5>
             <p><strong class="srtong-footer">julianespitia.photography@gmail.com</strong></p>
           </div>
         </div>
@@ -296,9 +310,9 @@
             <a href="https://www.google.com/maps?q=Medellín" target="_blank" aria-label="Abrir ubicación en Google Maps">
                 <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
             </a>
-          </div>
+          </div> 
           <div class="contact-text text-start">
-            <h5 class="widget-title">Ubicación</h5>
+            <h5 class="widget-title-foot">Ubicación</h5>
             <p class="direccion-footer"><strong class="srtong-footer">Medellín, Colombia</strong></p>
           </div>
         </div>
@@ -314,7 +328,6 @@
       <li class="list-inline-item"><a href="https://api.whatsapp.com/send/?phone=573151234252&text=Hola%2C+quiero+agendar+una+asesoria+con+Julian+Espitia&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a></li>
       <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
       <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-      <li class="list-inline-item"><a href="https://www.linkedin.com/in/julian-espitia-333b34390/"><i class="fab fa-linkedin-in"></i></a></li>
     </ul>
   </div>
 
@@ -358,6 +371,32 @@
     <script type="text/javascript" src="js/plugins/twitterFetcher_min.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAE_JprYsi2sHzUcl8u1DbcUgQnDveJWs4"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const items = document.querySelectorAll('.items_filter li');
+            const leftArrow = document.querySelector('.left-arrow');
+            const rightArrow = document.querySelector('.right-arrow');
+            let currentIndex = 0;
+
+            function updateFilter(newIndex) {
+                if (window.innerWidth < 992) {
+                    items[currentIndex].classList.remove('active');
+                    currentIndex = (newIndex + items.length) % items.length;
+                    
+                    const activeItem = items[currentIndex];
+                    activeItem.classList.add('active');
+                    
+                    // Simula el click para activar tu Isotope
+                    activeItem.querySelector('span').click();
+                }
+            }
+
+            if(leftArrow && rightArrow) {
+                leftArrow.addEventListener('click', () => updateFilter(currentIndex - 1));
+                rightArrow.addEventListener('click', () => updateFilter(currentIndex + 1));
+            }
+        });
+    </script>
 </body>
 
 </html>
